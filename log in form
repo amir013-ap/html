@@ -1,1 +1,120 @@
-simple form whit html
+--simple form whit html--
+
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta name="describtion" content="log in form with html">
+    <meta charset="UTF-8" >
+    <title>pade3</title>
+
+<link rel="icon" type="image/ico" href="images/icon.ico">
+
+</head>
+
+<body align="center">
+
+    <a href=" https:www.google.com" target="_blank" title="go to google">
+
+      <button style="font-size: large;
+       border-radius:20px;
+       background-color:darkblue ;
+       color: whitesmoke;">
+    google 
+    </button>
+
+    </a>
+<br>
+    <br>
+
+<form action="index.php" method="post">
+
+    <label for="username" > username:</label>
+<input type="text" 
+    id="username" 
+    minlength="6"
+    maxlength="25">
+<br><br>
+
+<label for="password">password:</label>
+<input type="password" 
+ id="password" 
+ minlength="8" 
+ placeholder="abc12DE-34">
+<br><br>
+
+<label for="email">email:</label>
+<input type="email" 
+id="email" 
+placeholder="example@email.com">
+<br><br>
+
+
+<label for="phone"> phone number:</label>
+<input type="tel" 
+id="phone" 
+placeholder="09123456789">
+<br><br>
+
+
+<label for="age">age:</label>
+<input type="number" 
+id="age" 
+min="1" 
+value="1">
+<br><br>
+
+
+
+
+<label for="sex">sex:</label>
+
+<label for="male">male</label>
+<input type="radio" id="male" name="sex" value="male">
+<label for="female">female</label>
+<input type="radio" id="female" name="sex" value="female">
+
+
+
+
+<br><br>
+<label for="birthdate">birthdate</label>
+<input type="date" 
+id="birthdate">
+<br><br>
+
+
+<label for="payment">payment:</label> 
+
+<select name="payment" id="payment">
+<option value="card">card</option>
+<option value="teter">teter</option>
+<option value="pypal">pypal</option>
+</select>
+<br><br>
+
+<label for="comment">comment:</label><br>
+
+<textarea 
+name="comment" 
+id="comment" 
+cols="25" 
+rows="5">
+
+</textarea>
+
+<br>
+<input type="reset"> 
+<input type="submit"><br>
+
+</form>
+
+<br><br><br>
+
+<iframe src="http://web.shad.ir/" frameborder="0">a</iframe>
+
+</body>
+
+
+</html>
